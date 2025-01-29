@@ -7,20 +7,19 @@ export default function Header() {
         <div className="col">
           <img src="public/img/dc-logo.png" alt="logo" />
         </div>
-
-        {navBArHeader.map((navHeader) => {
-          return (
-            <div className="col">
-              <nav className="HeaderNav">
-                <ul>
+        <div className="col">
+          <nav className="HeaderNav">
+            <ul>
+              {navBArHeader.map((navHeader) => {
+                return (
                   <li key={navBArHeader.id}>
                     <a href={navHeader.url}>{navHeader.text}</a>
                   </li>
-                </ul>
-              </nav>
-            </div>
-          );
-        })}
+                );
+              })}
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
   );
