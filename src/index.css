@@ -36,4 +36,15 @@
   text-decoration: none;
   font-size: 14px;
 }
-/* HEADER */
+/* MAIN */
+main {
+  background-color: black;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+main h1 {
+  color: white;
+}
+/* MAIN */
