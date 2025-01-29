@@ -1,0 +1,39 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* RESET */
+
+/* GENREAL */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* GENREAL */
+
+/* HEADER */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.HeaderNav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.HeaderNav ul {
+  list-style: none;
+}
+
+.HeaderNav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* HEADER */
