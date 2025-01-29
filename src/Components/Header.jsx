@@ -5,14 +5,14 @@ export default function Header() {
     <header className="container">
       <div className="row">
         <div className="col">
-          <img src="public/img/dc-logo.png" alt="logo" />
+          <img src="src/assets/img/dc-logo.png" alt="logo" />
         </div>
         <div className="col">
           <nav className="HeaderNav">
             <ul>
-              {navBArHeader.map((navHeader) => {
+              {navBArHeader.map((navHeader, index) => {
                 return (
-                  <li key={navBArHeader.id}>
+                  <li key={index}>
                     <a href={navHeader.url}>{navHeader.text}</a>
                   </li>
                 );

@@ -22,13 +22,10 @@
   padding: 20px 0;
 }
 
-.HeaderNav {
-  justify-content: flex-end;
-  align-items: center;
-}
-
 .HeaderNav ul {
   list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .HeaderNav ul li a {
@@ -48,3 +45,33 @@ main h1 {
   color: white;
 }
 /* MAIN */
+
+/* FOOTER */
+.footer-top {
+  background-color: #0c7cec;
+}
+.FooterNavTop ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 15px 0;
+}
+.FooterNavTop ul li {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FooterNavTop ul li img {
+  width: 40px;
+}
+
+.FooterNavTop ul li a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding-left: 10px;
+}
+/* FOOTER */

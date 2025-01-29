@@ -5,10 +5,9 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-      ciao
-      {/* <Header />
+      <Header />
       <Main />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
