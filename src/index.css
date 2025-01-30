@@ -79,9 +79,9 @@ main h1 {
 /* footer top */
 
 /* footer middle */
-.footer-middle {
+.footer-middle-container {
   background-image: url("src/assets/img/footer-bg.jpg");
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-nav-middle {
@@ -116,8 +116,39 @@ main h1 {
 
 /* footer bottom */
 .footer-bottom {
-  background-color: grey;
+  background-color: #303030;
   height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-bottom-right p {
+  color: #0c7cec;
+}
+
+.footer-bottom-left button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #303030;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #0282f9;
+  cursor: pointer;
 }
 /* footer bottom */
 /* FOOTER */
