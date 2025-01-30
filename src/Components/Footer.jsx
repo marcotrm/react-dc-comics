@@ -10,7 +10,7 @@ export default function Footer() {
             <ul>
               {navBarFooterTop.map((NavFooter) => {
                 return (
-                  <li key={NavFooter.id}>
+                  <li key={NavFooter.id} className="link">
                     <img src={NavFooter.url} alt="" />
                     <a href={NavFooter.link}>{NavFooter.text}</a>
                   </li>
