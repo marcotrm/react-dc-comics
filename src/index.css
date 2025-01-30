@@ -147,6 +147,7 @@ main {
 .footer-nav-middle {
   display: flex;
   padding: 20px 0;
+  height: 40vh;
 }
 
 .footer-middle h4 {
@@ -169,8 +170,9 @@ main {
 
 .footer-middle img {
   position: relative;
-  bottom: 75px;
-  left: 20px;
+  bottom: 60px;
+  left: 110px;
+  height: 50vh;
 }
 /* footer middle */
 
@@ -180,6 +182,8 @@ main {
   height: 20vh;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 10;
 }
 
 .footer-bottom-container {
@@ -227,6 +231,11 @@ main {
   transform: scale(1.1);
 }
 .load:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.current:hover {
   cursor: pointer;
   transform: scale(1.15);
 }
